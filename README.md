@@ -1,17 +1,11 @@
 # Genetic Drawing
-This is a toy project I did around 2017 for imitating a drawing process given a target image (inspired by many examples of genetic drawing on the internet, and this was my take on it, mostly as an exercise). 
-
-Due to a popular request, it is now opensource 🙂
+This is a project for imitating a painitng process given a target image (inspired by many examples of genetic drawing on the internet). It also supports user-created sampling masks, in case you'd like to specify regions where more brushstrokes are needed (for ex, to allocate more finer details).
 
 Examples of generated images:
 
-![](imgs/img1.gif) <img src="imgs/img2.gif" width="380">
+<img src="./example2.jpg" width=300> <img src="imgs/img2.gif" width="300">
 
-It also supports user-created sampling masks, in case you'd like to specify regions where more brushstrokes are needed (for ex, to allocate more finer details)
-
-
-<img src="imgs/img3.gif">
-
+<img src="./example.jpg" width=300> <img src="imgs/img1.gif" width="300">
 
 ## Python
 you would need the following python 3 libraries:
@@ -19,6 +13,6 @@ you would need the following python 3 libraries:
 * opencv 3.4.1
 * numpy 1.16.2
 * matplotlib 3.0.3
-* and Jupyter Notebook
+* Jupyter Notebook
 
 To start, open the GeneticDrawing.ipynb and run the example code
